@@ -1,3 +1,9 @@
 {
+  "redirects": [
+    { "source": "/about", "destination": "/index.html", "statusCode": 200 },
+    { "source": "/develop", "destination": "/index.html", "statusCode": 200 },
+    { "source": "/design", "destination": "/index.html", "statusCode": 200 },
+    { "source": "/contact", "destination": "/index.html", "statusCode": 200 }
+  ],
   "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
