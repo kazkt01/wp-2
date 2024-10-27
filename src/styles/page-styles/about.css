@@ -6,8 +6,6 @@
 .a-video {
   width: 300px;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
   overflow: hidden;
 }
 
