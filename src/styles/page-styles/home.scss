@@ -19,6 +19,8 @@
 
 .idea-2 {
   width: 400px;
+  height: auto;
+  overflow: hidden;
   // タブレット
   @media screen and (max-width: 768px) {
     width: 300px;

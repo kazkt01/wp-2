@@ -14,6 +14,8 @@
 
 .idea-2 {
   width: 400px;
+  height: auto;
+  overflow: hidden;
 }
 @media screen and (max-width: 768px) {
   .idea-2 {
