@@ -1,0 +1,38 @@
+.a-box {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.a-video {
+  border-radius: 20px;
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.icon {
+  margin: 0 0.5em;
+}
+
+.icon-git {
+  border-radius: 20px;
+  box-shadow: 0px 0px 26px -5px #777777;
+  translate: all 1s;
+  &:hover {
+    border: 1px solid #001eff;
+    box-shadow: 0px 0px 26px -5px #a3a3ff;
+  }
+}
+
+.git-link {
+  color: #333;
+
+  &:hover {
+    color: #001eff;
+  }
+}
+
+.skills-title {
+  margin-bottom: 2px;
+  margin: 10px;
+}
