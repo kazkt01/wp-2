@@ -2,4 +2,5 @@
 
 html {
   font-family: "Jost", serif;
+  font-display: set-nth($list: , $n: , $value: );
 }
