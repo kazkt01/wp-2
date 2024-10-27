@@ -1,5 +1,6 @@
 import "../styles/page-styles/home.css";
 import face from "../assets/videos/siro.mp4";
+import faceLow from "../assets/videos/siro-low.mp4";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
           <figure>
             <video className="idea-2" autoPlay loop muted>
               <source src={face} />
+              <source src={faceLow} />
             </video>
             <figcaption>
               <h2>Hi! Im Kazuki Tachinana</h2>

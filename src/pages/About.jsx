@@ -24,6 +24,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { AiFillGithub } from "react-icons/ai";
 import "../styles/page-styles/about.css";
 import faceA from "../assets/videos/siro.mp4";
+import faceLow from "../assets/videos/siro-low.mp4";
 
 function About() {
   return (
@@ -32,6 +33,7 @@ function About() {
         <figure className="a-box">
           <video className="a-video" autoPlay loop muted>
             <source src={faceA} />
+            <source src={faceLow} />
           </video>
           <figcaption>
             <h2>Kazuki Tachibana</h2>
