@@ -16,8 +16,8 @@ function Home() {
 
           <figure>
             <video className="idea-2" autoPlay loop muted>
-              <source src={face} />
-              <source src={faceLow} />
+              <source src={face} type="video/mp4" />
+              <source src={faceLow} type="video/mp4" />
             </video>
             <figcaption>
               <h2>Hi! Im Kazuki Tachinana</h2>

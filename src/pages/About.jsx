@@ -32,8 +32,8 @@ function About() {
       <section>
         <figure className="a-box">
           <video className="a-video" autoPlay loop muted>
-            <source src={faceA} />
-            <source src={faceLow} />
+            <source src={faceA} type="video/mp4" />
+            <source src={faceLow} type="video/mp4" />
           </video>
           <figcaption>
             <h2>Kazuki Tachibana</h2>

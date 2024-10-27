@@ -13,7 +13,9 @@ function Header() {
     <div>
       <header className="h-box">
         <div className="logo-box">
-          <img className="h-logo" src={logo} alt="" />
+          <a href="/" className="logo-link">
+            <img className="h-logo" src={logo} alt="" />
+          </a>
         </div>
         <nav className="nav-box">
           <li className="li-box">
