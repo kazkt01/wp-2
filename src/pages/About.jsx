@@ -30,7 +30,7 @@ function About() {
     <div>
       <section>
         <figure className="a-box">
-          <video className="a-video" autoPlay loop>
+          <video className="a-video" autoPlay loop muted>
             <source src={faceA} />
           </video>
           <figcaption>

@@ -14,7 +14,7 @@ function Home() {
           </figcaption> */}
 
           <figure>
-            <video className="idea-2" autoPlay loop>
+            <video className="idea-2" autoPlay loop muted>
               <source src={face} />
             </video>
             <figcaption>
