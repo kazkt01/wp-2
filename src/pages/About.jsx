@@ -5,8 +5,6 @@ import {
   FaReact,
   FaWordpressSimple,
 } from "react-icons/fa";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import {
   SiAdobeaftereffects,
   SiAdobeillustrator,
@@ -30,7 +28,6 @@ import faceA from "../assets/videos/siro.mp4";
 function About() {
   return (
     <div>
-      <Header />
       <section>
         <figure className="a-box">
           <video className="a-video" autoPlay loop>
@@ -86,7 +83,6 @@ function About() {
           </figcaption>
         </figure>
       </section>
-      <Footer />
     </div>
   );
 }

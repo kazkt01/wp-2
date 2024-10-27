@@ -1,12 +1,9 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import "../styles/page-styles/home.css";
 import face from "../assets/videos/siro.mp4";
 
 function Home() {
   return (
     <div>
-      <Header />
       <section>
         <div className="hero-box">
           {/* <video className="hero-video" autoPlay muted loop>
@@ -29,7 +26,6 @@ function Home() {
         </div>
         <div className="yohaku"></div>
       </section>
-      <Footer />
     </div>
   );
 }

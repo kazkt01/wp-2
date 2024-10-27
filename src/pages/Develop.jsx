@@ -1,11 +1,8 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import "../styles/page-styles/develop.css";
 
 function Develop() {
   return (
     <div>
-      <Header />
       <section>
         <div className="pf-box">
           <div className="pf-item">
@@ -34,7 +31,6 @@ function Develop() {
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   );
 }

@@ -1,11 +1,8 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import "../styles/page-styles/contact.css";
 
 function Contact() {
   return (
     <div>
-      <Header />
       <section>
         <form className="form">
           <div className="form-box">
@@ -33,8 +30,6 @@ function Contact() {
           </div>
         </form>
       </section>
-
-      <Footer />
     </div>
   );
 }

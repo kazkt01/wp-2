@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Develop from "./pages/Develop";
 import Design from "./pages/Design";
 import Contact from "./pages/Contact";
+import Applayout from "./layout/Applayout";
 
 function App() {
   return (
@@ -11,11 +12,13 @@ function App() {
       <div>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/about" element={<About />} />
-            <Route path="/develop" element={<Develop />} />
-            <Route path="/design" element={<Design />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/" element={<Applayout />}>
+              <Route index element={<Home />}></Route>
+              <Route path="/about" element={<About />} />
+              <Route path="/develop" element={<Develop />} />
+              <Route path="/design" element={<Design />} />
+              <Route path="/contact" element={<Contact />} />
+            </Route>
           </Routes>
         </BrowserRouter>
       </div>

@@ -1,5 +1,3 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import "../styles/page-styles/desing.css";
 
 // 画像系のインポート
@@ -9,7 +7,6 @@ import itemB from "../assets/images/sci-fi.png";
 function Design() {
   return (
     <div>
-      <Header />
       <section>
         <div className="design-box">
           <div className="d-item">
@@ -61,7 +58,6 @@ function Design() {
           </div>
         </div>
       </section>
-      <Footer />
     </div>
   );
 }
