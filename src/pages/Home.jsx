@@ -1,5 +1,5 @@
 import "../styles/page-styles/home.css";
-import face from "../assets/videos/siro.mp4";
+// import face from "../assets/videos/siro.mp4";
 import faceLow from "../assets/videos/siro-low.mp4";
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
 
           <figure>
             <video className="idea-2" autoPlay loop muted>
-              <source src={face} type="video/mp4" />
+              {/* <source src={face} type="video/mp4" /> */}
               <source src={faceLow} type="video/mp4" />
             </video>
             <figcaption>
