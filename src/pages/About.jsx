@@ -46,7 +46,7 @@ function About() {
             muted
             loop
           >
-            <source src={faceLow} type="video/mp4" media="all" />
+            <source src={faceLow} type="video/webm" />
           </video>
 
           <figcaption>
