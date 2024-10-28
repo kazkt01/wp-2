@@ -14,18 +14,12 @@ function Home() {
           <figcaption>
             <small>*この動画は、Udemyの講座をもとにUE5で作成したものです</small>
           </figcaption> */}
-
-          <figure>
-            <video className="idea-2" autoPlay playsInline muted={true} loop>
-              <source src={nobg} type="videp/mp4" />
-            </video>
-
-            <figcaption>
-              <h2>Hi! Im Kazuki Tachinana</h2>
-              <h1>”Welcome to My Portfolio”</h1>
-              <p>ご覧いただきありがとうございます</p>
-            </figcaption>
-          </figure>
+          <video className="idea-2" autoPlay playsInline muted={true} loop>
+            <source src={nobg} type="videp/mp4" />
+          </video>
+          <h2>Hi! Im Kazuki Tachinana</h2>
+          <h1>”Welcome to My Portfolio”</h1>
+          <p>ご覧いただきありがとうございます</p>
         </div>
         <div className="yohaku"></div>
       </section>
