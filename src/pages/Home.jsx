@@ -1,12 +1,26 @@
+import { useEffect, useRef } from "react";
 import nobg from "../assets/videos/nobg01.mp4";
 import "../styles/page-styles/home.css";
 
 function Home() {
+  const videoRef = useRef(undefined);
+  useEffect(() => {
+    videoRef.current.defaultMuted = true;
+  });
+
   return (
     <div>
       <section>
         <div className="hero-box">
-          <video className="idea-2" autoPlay playsInline muted loop>
+          {/* videorefでの解決試み  ←解決済み  */}
+          <video
+            className="idea-2"
+            ref={videoRef}
+            autoPlay
+            playsInline
+            muted
+            loop
+          >
             <source src={nobg} type="video/mp4" />
           </video>
           <h2>Hi! Im Kazuki Tachinana</h2>

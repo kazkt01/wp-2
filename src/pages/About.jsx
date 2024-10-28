@@ -1,3 +1,5 @@
+import { useEffect, useRef } from "react";
+
 import {
   FaFigma,
   FaHtml5,
@@ -24,15 +26,27 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { AiFillGithub } from "react-icons/ai";
 import "../styles/page-styles/about.css";
 // import faceA from "../assets/videos/siro.mp4";
-import faceLow from "../assets/videos/nobg01.mp4";
+import faceLow from "../assets/videos/nobg02.webm";
 
 function About() {
+  const videoRef = useRef(undefined);
+  useEffect(() => {
+    videoRef.current.defaultMuted = true;
+  });
+
   return (
     <div>
       <section>
         <figure className="a-box">
-          <video className="a-video" autoPlay playsInline muted loop>
-            <source src={faceLow} type="video/mp4" />
+          <video
+            className="a-video"
+            ref={videoRef}
+            autoPlay
+            playsInline
+            muted
+            loop
+          >
+            <source src={faceLow} type="video/mp4" media="all" />
           </video>
 
           <figcaption>
