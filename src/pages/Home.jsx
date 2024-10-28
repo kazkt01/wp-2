@@ -19,11 +19,14 @@ function Home() {
             <video
               className="idea-2"
               autoPlay
+              playsInline
               muted={true}
               loop
-              playsInline
-              src={nobg}
-            />
+              preload="auto"
+            >
+              <source src={nobg} type="videp/mp4" />
+            </video>
+
             <figcaption>
               <h2>Hi! Im Kazuki Tachinana</h2>
               <h1>”Welcome to My Portfolio”</h1>

@@ -34,12 +34,13 @@ function About() {
           <video
             className="a-video"
             autoPlay
-            loop
-            muted={true}
             playsInline
-            src={faceLow}
-            type="video/mp4"
-          />
+            muted={true}
+            loop
+            preload="auto"
+          >
+            <source src={faceLow} type="video/mp4" />
+          </video>
 
           <figcaption>
             <h2>Kazuki Tachibana</h2>
