@@ -12,7 +12,7 @@ function Design() {
           <div className="d-item">
             <h2>Udemy Study 01</h2>
             <figure>
-              <img className="u-study" src={itemA} alt="" />
+              <img className="d-img" src={itemA} alt="" />
               <h3>基本操作を理解できました</h3>
               <p>
                 IllustratorとPhotoshopの基本操作を理解するするために学習しました

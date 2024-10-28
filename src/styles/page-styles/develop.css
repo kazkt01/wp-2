@@ -1,35 +1,38 @@
 .pf-box {
   padding-top: 130px;
+  width: 100%;
   text-align: center;
-  display: flex;
-  justify-content: center;
-}
-.pf-box--01 {
-  padding: 10px 0 20px 0;
-}
-@media screen and (max-width: 768px) {
-  .pf-box {
-    display: block;
-  }
 }
 
 .pf-item {
-  padding: 40px;
-  margin: 0 20px;
+  margin: 0 auto;
   border-radius: 20px;
   width: 800px;
-  height: 800px;
+  height: 1000px;
   box-shadow: 0px 0px 21px -3px #777777;
   transition: all 1s;
 }
+@media screen and (max-width: 768px) {
+  .pf-item {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+  }
+}
 
-.iframe-img {
-  width: 500px;
-  height: 600px;
+.dev-img {
+  width: 400px;
+  height: auto;
   border: 1px solid #333;
   border-radius: 20px;
   -o-object-fit: fill;
      object-fit: fill;
+}
+@media screen and (max-width: 768px) {
+  .dev-img {
+    width: 180px;
+    height: auto;
+  }
 }
 
 .pf-btn {

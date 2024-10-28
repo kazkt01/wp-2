@@ -19,6 +19,11 @@
   box-shadow: 0px 0px 21px -3px #777777;
   transition: all 1s;
 }
+@media screen and (max-width: 768px) {
+  .d-item {
+    width: 700px;
+  }
+}
 
 .d-img {
   width: 300px;
@@ -27,8 +32,13 @@
      object-fit: cover;
 }
 
-.u-study {
+.d-img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 300px;
+}
+@media screen and (max-width: 768px) {
+  .d-img {
+    width: 200px;
+  }
 }/*# sourceMappingURL=desing.css.map */

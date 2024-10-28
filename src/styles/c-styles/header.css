@@ -15,10 +15,6 @@
   height: auto;
 }
 
-.logo-link {
-  color: #333;
-}
-
 .nav-box {
   display: flex;
 }
@@ -55,7 +51,7 @@
   height: 100%;
   text-align: center;
   -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-right-color: rgba(255, 255, 255, 0.2);
   border-bottom-color: rgba(255, 255, 255, 0.2);
@@ -68,7 +64,7 @@
 }
 
 .sp-nav {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .sp-li {
@@ -94,11 +90,11 @@
 }
 
 .h-link {
-  color: #333;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
 
 .h-link:hover {
-  border-bottom: 2px solid #333;
-}/*# sourceMappingURL=header.css.map */
+  border-bottom: 2px solid #ffffff;
+} /*# sourceMappingURL=header.css.map */

@@ -1,6 +1,7 @@
 import "../styles/page-styles/home.css";
 // import face from "../assets/videos/siro.mp4";
-import faceLow from "../assets/videos/siro-low.mp4";
+// import faceLow from "../assets/videos/siro-low.mp4";
+import nobg from "../assets/videos/nobg01.mp4";
 
 function Home() {
   return (
@@ -15,9 +16,17 @@ function Home() {
           </figcaption> */}
 
           <figure>
-            <video className="idea-2" autoPlay loop muted playsInline>
+            <video
+              className="idea-2"
+              autoPlay
+              muted={true}
+              loop
+              playsInline
+              src={nobg}
+            >
               {/* <source src={face} type="video/mp4" /> */}
-              <source src={faceLow} type="video/mp4" />
+              {/* <source src={faceLow} type="video/mp4" /> */}
+              {/* <source /> */}
             </video>
             <figcaption>
               <h2>Hi! Im Kazuki Tachinana</h2>

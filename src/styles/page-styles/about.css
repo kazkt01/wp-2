@@ -17,6 +17,7 @@
   border-radius: 20px;
   box-shadow: 0px 0px 26px -5px #777777;
   translate: all 1s;
+  color: white;
 }
 .icon-git:hover {
   border: 1px solid #001eff;

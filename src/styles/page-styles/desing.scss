@@ -15,6 +15,9 @@
   height: 800px;
   box-shadow: 0px 0px 21px -3px #777777;
   transition: all 1s;
+  @media screen and (max-width: 768px) {
+    width: 700px;
+  }
 }
 
 .d-img {
@@ -23,7 +26,10 @@
   object-fit: cover;
 }
 
-.u-study {
+.d-img {
   object-fit: cover;
   width: 300px;
+  @media screen and (max-width: 768px) {
+    width: 200px;
+  }
 }

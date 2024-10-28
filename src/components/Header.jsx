@@ -2,7 +2,8 @@ import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import "../styles/c-styles/header.css";
 
-import logo from "../assets/logo-kt.svg";
+// import logo from "../assets/logo-kt.svg";
+import logoWhite from "../assets/white-logo.svg";
 
 function Header() {
   const [active, setActive] = useState(false);
@@ -14,7 +15,8 @@ function Header() {
       <header className="h-box">
         <div className="logo-box">
           <a href="/" className="logo-link">
-            <img className="h-logo" src={logo} alt="" />
+            {/* <img className="h-logo" src={logo} alt="" /> */}
+            <img className="h-logo" src={logoWhite} alt="" />
           </a>
         </div>
         <nav className="nav-box">

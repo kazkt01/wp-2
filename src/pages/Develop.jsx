@@ -1,5 +1,8 @@
 import "../styles/page-styles/develop.css";
 
+import webpic from "../assets/images/3dsite.jpg";
+import apppic from "../assets/images/app.jpg";
+
 function Develop() {
   return (
     <div>
@@ -7,12 +10,14 @@ function Develop() {
         <div className="pf-box">
           <div className="pf-item">
             <h2>APP</h2>
-            <figure>
-              <iframe
-                className="iframe-img"
-                src="https://cotumo-app-beta-var2.vercel.app/"
+            <div className="">
+              <img
+                className="dev-img
+                "
+                src={apppic}
+                alt=""
               />
-            </figure>
+            </div>
             <a href="https://cotumo-app-beta-var2.vercel.app/" target="_blank">
               <button className="pf-btn">Detail</button>
             </a>
@@ -20,9 +25,11 @@ function Develop() {
           <div className="pf-item">
             <h2>SITE</h2>
             <figure>
-              <iframe
-                className="iframe-img"
-                src="https://vite-3d-red.vercel.app/"
+              <img
+                className="dev-img
+                "
+                src={webpic}
+                alt=""
               />
             </figure>
             <a href="https://vite-3d-red.vercel.app/" target="_blank">

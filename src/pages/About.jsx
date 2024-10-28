@@ -24,14 +24,21 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { AiFillGithub } from "react-icons/ai";
 import "../styles/page-styles/about.css";
 // import faceA from "../assets/videos/siro.mp4";
-import faceLow from "../assets/videos/siro-low.mp4";
+import faceLow from "../assets/videos/nobg01.mp4";
 
 function About() {
   return (
     <div>
       <section>
         <figure className="a-box">
-          <video className="a-video" autoPlay loop muted playsInline>
+          <video
+            className="a-video"
+            preload="true"
+            autoPlay
+            loop
+            muted={true}
+            playsInline
+          >
             {/* <source src={faceA} type="video/mp4" /> */}
             <source src={faceLow} type="video/mp4" />
           </video>
