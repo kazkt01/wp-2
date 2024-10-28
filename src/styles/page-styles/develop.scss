@@ -8,13 +8,16 @@
   margin: 0 auto;
   border-radius: 20px;
   width: 800px;
-  height: 1000px;
+  height: 800px;
   box-shadow: 0px 0px 21px -3px #777777;
   transition: all 1s;
+  @media screen and (max-width: 425px) {
+    width: 380px;
+    height: 600px;
+  }
   @media screen and (max-width: 768px) {
-    width: 300px;
-    height: auto;
-    padding: 10px;
+    width: 480px;
+    height: 600px;
   }
 }
 
@@ -24,8 +27,12 @@
   border: 1px solid #333;
   border-radius: 20px;
   object-fit: fill;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 425px) {
     width: 180px;
+    height: auto;
+  }
+  @media screen and (max-width: 768px) {
+    width: 280px;
     height: auto;
   }
 }
@@ -34,6 +41,7 @@
   border-radius: 20px;
   background: #fff;
   padding: 8px 16px;
+  margin: 20px;
   box-shadow: 0px 0px 1px -3px #a8a8a8;
   &:hover {
     border: 1px solid #333;
