@@ -64,12 +64,12 @@
 }
 
 .sp-nav {
-  margin-top: 200px;
+  margin-top: 180px;
 }
 
 .sp-li {
   list-style: none;
-  margin-top: 50px;
+  margin: 25px 0;
 }
 
 .sp-link {

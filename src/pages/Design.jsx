@@ -38,8 +38,6 @@ function Design() {
               </figcaption>
             </figure>
           </div>
-        </div>
-        <div className="design-box">
           <div className="d-item">
             <h2>Design</h2>
             <figure>
