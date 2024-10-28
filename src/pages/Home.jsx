@@ -16,14 +16,7 @@ function Home() {
           </figcaption> */}
 
           <figure>
-            <video
-              className="idea-2"
-              autoPlay
-              playsInline
-              muted={true}
-              loop
-              preload="auto"
-            >
+            <video className="idea-2" autoPlay playsInline muted={true} loop>
               <source src={nobg} type="videp/mp4" />
             </video>
 
