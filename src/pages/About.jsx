@@ -33,15 +33,14 @@ function About() {
         <figure className="a-box">
           <video
             className="a-video"
-            preload="true"
             autoPlay
             loop
             muted={true}
             playsInline
-          >
-            {/* <source src={faceA} type="video/mp4" /> */}
-            <source src={faceLow} type="video/mp4" />
-          </video>
+            src={faceLow}
+            type="video/mp4"
+          />
+
           <figcaption>
             <h2>Kazuki Tachibana</h2>
             <p>{/* <strong>Web Developper</strong> */}</p>

@@ -23,11 +23,7 @@ function Home() {
               loop
               playsInline
               src={nobg}
-            >
-              {/* <source src={face} type="video/mp4" /> */}
-              {/* <source src={faceLow} type="video/mp4" /> */}
-              {/* <source /> */}
-            </video>
+            />
             <figcaption>
               <h2>Hi! Im Kazuki Tachinana</h2>
               <h1>”Welcome to My Portfolio”</h1>
