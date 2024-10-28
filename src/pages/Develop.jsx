@@ -11,12 +11,7 @@ function Develop() {
           <div className="pf-item">
             <h2>APP</h2>
             <div className="">
-              <img
-                className="dev-img
-                "
-                src={apppic}
-                alt=""
-              />
+              <img className="dev-img" src={apppic} alt="" />
             </div>
             <a href="https://cotumo-app-beta-var2.vercel.app/" target="_blank">
               <button className="pf-btn">Detail</button>

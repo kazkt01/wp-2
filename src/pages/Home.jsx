@@ -14,7 +14,7 @@ function Home() {
           <figcaption>
             <small>*この動画は、Udemyの講座をもとにUE5で作成したものです</small>
           </figcaption> */}
-          <video className="idea-2" autoPlay playsInline muted={true} loop>
+          <video className="idea-2" autoPlay playsInline muted loop>
             <source src={nobg} type="videp/mp4" />
           </video>
           <h2>Hi! Im Kazuki Tachinana</h2>

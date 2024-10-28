@@ -31,6 +31,13 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media screen and (max-width: 768px) {
+  .d-img {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+  }
+}
 
 .d-img {
   -o-object-fit: cover;

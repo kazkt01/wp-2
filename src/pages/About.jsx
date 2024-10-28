@@ -31,7 +31,7 @@ function About() {
     <div>
       <section>
         <figure className="a-box">
-          <video className="a-video" autoPlay playsInline muted={true} loop>
+          <video className="a-video" autoPlay playsInline muted loop>
             <source src={faceLow} type="video/mp4" />
           </video>
 
