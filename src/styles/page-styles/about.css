@@ -8,9 +8,14 @@
   height: auto;
   overflow: hidden;
 }
+@media screen and (max-width: 768px) {
+  .a-video {
+    width: 180px;
+  }
+}
 
 .icon {
-  margin: 0 0.5em;
+  margin: 0.5em 0.5em;
 }
 
 .icon-git {

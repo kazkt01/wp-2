@@ -3,58 +3,68 @@
   width: 100%;
   text-align: center;
 }
-
-.pf-item {
-  margin: 0 auto;
+.pf-box .pf-item {
+  margin: 0 auto 50px;
   border-radius: 20px;
   width: 800px;
   height: 800px;
   box-shadow: 0px 0px 21px -3px #777777;
   transition: all 1s;
 }
-@media screen and (max-width: 425px) {
-  .pf-item {
-    width: 380px;
-    height: 600px;
-  }
-}
 @media screen and (max-width: 768px) {
-  .pf-item {
+  .pf-box .pf-item {
     width: 480px;
     height: 600px;
   }
 }
-
-.dev-img {
+@media screen and (max-width: 425px) {
+  .pf-box .pf-item {
+    width: 280px;
+    height: 500px;
+  }
+}
+.pf-box .dev-img {
   width: 400px;
   height: auto;
   border: 1px solid #333;
   border-radius: 20px;
-  -o-object-fit: fill;
-     object-fit: fill;
-}
-@media screen and (max-width: 425px) {
-  .dev-img {
-    width: 180px;
-    height: auto;
-  }
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media screen and (max-width: 768px) {
-  .dev-img {
+  .pf-box .dev-img {
     width: 280px;
     height: auto;
   }
 }
-
-.pf-btn {
+@media screen and (max-width: 425px) {
+  .pf-box .dev-img {
+    width: 180px;
+    height: auto;
+  }
+}
+.pf-box .pf-btn {
   border-radius: 20px;
   background: #fff;
   padding: 8px 16px;
   margin: 20px;
   box-shadow: 0px 0px 1px -3px #a8a8a8;
+  transition: background 0.3s, box-shadow 0.3s;
 }
-.pf-btn:hover {
+.pf-box .pf-btn:hover {
   border: 1px solid #333;
   box-shadow: none;
   background: #bbbbbb;
+}
+@media screen and (max-width: 768px) {
+  .pf-box .pf-btn {
+    padding: 6px 12px;
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .pf-box .pf-btn {
+    padding: 4px 10px;
+    margin: 10px;
+  }
 }/*# sourceMappingURL=develop.css.map */

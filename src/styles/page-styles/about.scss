@@ -8,10 +8,18 @@
   height: auto;
   // object-fit: cover;
   overflow: hidden;
+  // スマホ
+  // @media screen and (max-width: 768px) {
+  //   width: 180px;
+  // }
+  // タブレット
+  @media screen and (max-width: 768px) {
+    width: 180px;
+  }
 }
 
 .icon {
-  margin: 0 0.5em;
+  margin: 0.5em 0.5em;
 }
 
 .icon-git {
