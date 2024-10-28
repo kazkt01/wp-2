@@ -21,7 +21,7 @@ function Home() {
             muted
             loop
           >
-            <source src={nobg} type="video/webm" />
+            <source src={nobg} type="video/mp4" />
           </video>
           <h2>Hi! Im Kazuki Tachinana</h2>
           <h1>”Welcome to My Portfolio”</h1>
