@@ -28,9 +28,7 @@ import "../styles/page-styles/about.css";
 // import faceA from "../assets/videos/siro.mp4";
 
 // ↓これが本番
-// import faceLow from "../assets/videos/nobg02.webm";
-
-import faceLow from "../assets/videos/siro.mp4";
+import faceLow from "../assets/videos/nobg02.webm";
 
 function About() {
   const videoRef = useRef(undefined);
@@ -51,7 +49,7 @@ function About() {
             muted
             loop
           >
-            <source src={faceLow} type="video/mp4" />
+            <source src={faceLow} type="video/webm" />
           </video>
 
           <figcaption>
