@@ -1,7 +1,6 @@
 .design-box {
   padding-top: 130px;
   text-align: center;
-  justify-content: center;
   width: 100%;
   height: auto;
 
@@ -45,10 +44,10 @@
     @media screen and (max-width: 768px) {
       width: 250px;
       height: auto;
-      padding: 10px;
     }
     @media screen and (max-width: 425px) {
-      width: 200px;
+      width: 180px;
+      height: auto;
     }
   }
 }

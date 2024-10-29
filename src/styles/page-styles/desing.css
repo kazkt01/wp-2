@@ -1,7 +1,6 @@
 .design-box {
   padding-top: 130px;
   text-align: center;
-  justify-content: center;
   width: 100%;
   height: auto;
 }
@@ -50,11 +49,11 @@
   .design-box .d-img {
     width: 250px;
     height: auto;
-    padding: 10px;
   }
 }
 @media screen and (max-width: 425px) {
   .design-box .d-img {
-    width: 200px;
+    width: 180px;
+    height: auto;
   }
 }/*# sourceMappingURL=desing.css.map */
