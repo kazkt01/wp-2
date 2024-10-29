@@ -16,6 +16,7 @@ function Home() {
           <video
             className="idea-2"
             ref={videoRef}
+            preload={true}
             autoPlay
             playsInline
             muted

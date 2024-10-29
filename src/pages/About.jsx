@@ -41,6 +41,7 @@ function About() {
           <video
             className="a-video"
             ref={videoRef}
+            preload={true}
             autoPlay
             playsInline
             muted
