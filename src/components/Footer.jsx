@@ -5,7 +5,9 @@ function Footer() {
     <div>
       <footer className="footer-box">
         <div>
-          <small>© 2024 Kazuki Tachibana All rights reserved.</small>
+          <small className="copy">
+            © 2024 Kazuki Tachibana All rights reserved.
+          </small>
         </div>
       </footer>
     </div>

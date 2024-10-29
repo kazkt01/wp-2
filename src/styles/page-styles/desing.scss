@@ -30,6 +30,13 @@
     }
   }
 
+  .d-url {
+    color: white;
+    &:hover {
+      color: blue;
+    }
+  }
+
   .d-img {
     width: 300px;
     border-radius: 20px;

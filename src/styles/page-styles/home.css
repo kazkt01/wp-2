@@ -28,4 +28,22 @@
   .idea-2 {
     width: 200px;
   }
+}
+
+@media screen and (max-width: 375px) {
+  .home-sub-title {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .home-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .home-p {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=home.css.map */

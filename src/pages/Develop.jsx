@@ -9,7 +9,7 @@ function Develop() {
       <section>
         <div className="pf-box">
           <div className="pf-item">
-            <h2>APP</h2>
+            <h2 className="pf-title">APP</h2>
             <div className="">
               <img className="dev-img" src={apppic} alt="" />
             </div>
@@ -18,7 +18,7 @@ function Develop() {
             </a>
           </div>
           <div className="pf-item">
-            <h2>SITE</h2>
+            <h2 className="pf-title">SITE</h2>
             <figure>
               <img
                 className="dev-img

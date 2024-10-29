@@ -23,9 +23,9 @@ function Home() {
           >
             <source src={nobg} type="video/mp4" />
           </video>
-          <h2>Hi! Im Kazuki Tachinana</h2>
-          <h1>”Welcome to My Portfolio”</h1>
-          <p>ご覧いただきありがとうございます</p>
+          <h2 className="home-sub-title">Hi! Im Kazuki Tachinana</h2>
+          <h1 className="home-title">”Welcome to My Portfolio”</h1>
+          <p className="home-p">ご覧いただきありがとうございます</p>
         </div>
         <div className="yohaku"></div>
       </section>
