@@ -1,7 +1,7 @@
 import "../styles/page-styles/develop.css";
 
-import webpic from "../assets/images/3dsite.jpg";
-import apppic from "../assets/images/app.jpg";
+import webpic from "../assets/images/w-site.webp";
+import apppic from "../assets/images/w-app.webp";
 
 function Develop() {
   return (
