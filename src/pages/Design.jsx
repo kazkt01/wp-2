@@ -83,7 +83,7 @@ function Design() {
             <h2>Environment</h2>
             <figure>
               <img className="d-img" src={itemC} alt="" />
-              <h2>Modering</h2>
+              <h2>Forest</h2>
               <p>Fogを使用しライティングにこだわり制作しました</p>
             </figure>
           </div>
