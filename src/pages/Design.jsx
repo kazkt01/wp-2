@@ -4,7 +4,7 @@ import "../styles/page-styles/desing.css";
 import itemA from "../assets/images/w-gra.webp";
 import itemB from "../assets/images/w-amp.webp";
 import itemC from "../assets/images/w-blender.webp";
-import itemD from "../assets/images/w-juery.webp";
+import itemD from "../assets/images/w-juery-new.webp";
 import itemE from "../assets/images/w-cafe.webp";
 
 function Design() {
@@ -88,13 +88,9 @@ function Design() {
             </figure>
           </div>
           <div className="d-item">
-            <h2>Modeling</h2>
+            <h2>etc...</h2>
             <figure>
-              <img
-                className="d-img"
-                src="../src/assets/image/forest3d.jpg"
-                alt=""
-              />
+              {/* <img className="d-img" src={itemF} alt="" /> */}
             </figure>
           </div>
         </div>
