@@ -71,7 +71,7 @@ function Design() {
             <h2>Art Work</h2>
             <figure>
               <img className="d-img" src={itemD} alt="" />
-              <h3>レイヤー効果の学習をしました</h3>
+              <h3>Layer FX</h3>
               <p>
                 複数のレイヤーを重ねて質感を重視し作成しました <br />
                 Photoshopのみで制作しています
