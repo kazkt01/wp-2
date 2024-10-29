@@ -1,5 +1,7 @@
 import { useEffect, useRef } from "react";
+
 import nobg from "../assets/videos/nobg01.mp4";
+
 import "../styles/page-styles/home.css";
 
 function Home() {

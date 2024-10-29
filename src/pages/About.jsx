@@ -26,7 +26,11 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { AiFillGithub } from "react-icons/ai";
 import "../styles/page-styles/about.css";
 // import faceA from "../assets/videos/siro.mp4";
-import faceLow from "../assets/videos/nobg02.webm";
+
+// ↓これが本番
+// import faceLow from "../assets/videos/nobg02.webm";
+
+import faceLow from "../assets/videos/siro.mp4";
 
 function About() {
   const videoRef = useRef(undefined);
@@ -47,7 +51,7 @@ function About() {
             muted
             loop
           >
-            <source src={faceLow} type="video/webm" />
+            <source src={faceLow} type="video/mp4" />
           </video>
 
           <figcaption>
