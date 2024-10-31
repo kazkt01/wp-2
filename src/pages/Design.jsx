@@ -93,20 +93,6 @@ function Design() {
               {/* <img className="d-img" src={itemF} alt="" /> */}
             </figure>
           </div>
-          <div className="d-item">
-            <h2>Environment</h2>
-            <figure>
-              <img className="d-img" src={itemC} alt="" />
-              <h2>Forest</h2>
-              <p>Fogを使用しライティングにこだわり制作しました</p>
-            </figure>
-          </div>
-          <div className="d-item">
-            <h2>etc...</h2>
-            <figure>
-              {/* <img className="d-img" src={itemF} alt="" /> */}
-            </figure>
-          </div>
         </div>
       </section>
     </div>
