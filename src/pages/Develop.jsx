@@ -13,7 +13,7 @@ function Develop() {
             <div className="">
               <img className="dev-img" src={apppic} alt="app-img" />
             </div>
-            <a href="https://cotumo-app-beta-var2.vercel.app/" target="_blank">
+            <a href="https://cotumo-mode-pf.vercel.app/" target="_blank">
               <button className="pf-btn">Detail</button>
             </a>
           </div>
