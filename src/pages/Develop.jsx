@@ -11,7 +11,7 @@ function Develop() {
           <div className="pf-item">
             <h2 className="pf-title">APP</h2>
             <div className="">
-              <img className="dev-img" src={apppic} alt="" />
+              <img className="dev-img" src={apppic} alt="app-img" />
             </div>
             <a href="https://cotumo-app-beta-var2.vercel.app/" target="_blank">
               <button className="pf-btn">Detail</button>
@@ -20,12 +20,7 @@ function Develop() {
           <div className="pf-item">
             <h2 className="pf-title">SITE</h2>
             <div>
-              <img
-                className="dev-img
-                "
-                src={webpic}
-                alt=""
-              />
+              <img className="dev-img" src={webpic} alt="site-img" />
             </div>
             <a href="https://vite-3d-red.vercel.app/" target="_blank">
               <button className="pf-btn">Detail</button>
