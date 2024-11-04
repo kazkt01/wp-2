@@ -19,14 +19,14 @@ function Develop() {
           </div>
           <div className="pf-item">
             <h2 className="pf-title">SITE</h2>
-            <figure>
+            <div>
               <img
                 className="dev-img
                 "
                 src={webpic}
                 alt=""
               />
-            </figure>
+            </div>
             <a href="https://vite-3d-red.vercel.app/" target="_blank">
               <button className="pf-btn">Detail</button>
             </a>

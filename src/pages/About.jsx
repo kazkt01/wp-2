@@ -72,6 +72,7 @@ function About() {
               <br />
               考え現在は、実務経験を積める環境を探し始めています
               <br />
+              バックエンドやクラウドなどの技術にも興味があります
             </p>
             <p className="skills-title">Skills</p>
             <div className="skills-box">

@@ -6,6 +6,7 @@ import itemB from "../assets/images/w-amp.webp";
 import itemC from "../assets/images/w-blender.webp";
 import itemD from "../assets/images/w-juery-new.webp";
 import itemE from "../assets/images/w-cafe.webp";
+import itemF from "../assets/images/w-sci-fi.webp";
 
 function Design() {
   return (
@@ -61,9 +62,36 @@ function Design() {
               <figcaption>
                 <h3>Marshall Amp</h3>
                 <p>
-                  Blenderを使用し自宅にあるアンプをモデリングしました <br />
+                  Blenderを使用し自宅にあるアンプをモデリングしました。
+                  学習してきた内容のアウトプットを目的に作成したものですが
+                  このアウトプットによりほとんどの無機物のモデリングは、可能になったと思います。
                 </p>
               </figcaption>
+            </figure>
+          </div>
+
+          <div className="d-item">
+            <h2>Environment</h2>
+            <figure>
+              <img className="d-img" src={itemC} alt="" />
+              <h2>Forest</h2>
+              <p>
+                光源の前方に穴を開けたメッシュなどを配置することで
+                ライティングにリアル感を持たせフォグを活用することで
+                空気感などにこだわり作成しました。
+              </p>
+            </figure>
+          </div>
+
+          <div className="d-item">
+            <h2>Sci-fi City</h2>
+            <figure>
+              <img className="d-img" src={itemF} alt="" />
+              <h2>Forest</h2>
+              <p>
+                テクスチャをPhotoshopで自作しカメラ設定やライティングにこだわることにより
+                よりリアルで近未来的な背景作りを目指しました。
+              </p>
             </figure>
           </div>
 
@@ -73,20 +101,13 @@ function Design() {
               <img className="d-img" src={itemD} alt="" />
               <h3>Layer FX</h3>
               <p>
-                複数のレイヤーを重ねて質感を重視し作成しました <br />
-                Photoshopのみで制作しています
+                複数のレイヤーを重ねて質感を重視し作成しました。
+                Photoshopのみで作成していて海外のアートワークデザインを参考に
+                作成してみました。
               </p>
             </figure>
           </div>
 
-          <div className="d-item">
-            <h2>Environment</h2>
-            <figure>
-              <img className="d-img" src={itemC} alt="" />
-              <h2>Forest</h2>
-              <p>Fogを使用しライティングにこだわり制作しました</p>
-            </figure>
-          </div>
           <div className="d-item">
             <h2>etc...</h2>
             <figure>
